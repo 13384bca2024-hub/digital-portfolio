@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M. PRITHIMA SHRI- Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>M. PRITHIMA SHRI - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -10,6 +11,7 @@
             margin: 0;
             padding: 0;
         }
+
         .header {
             background-color: #a4db1e;
             text-align: center;
@@ -17,67 +19,86 @@
             font-size: 24px;
             font-weight: bold;
         }
+
+        .header small {
+            display: block;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
         .profile-container {
             text-align: center;
-            margin-top: 20px;
+            margin: 20px 0;
         }
+
         .profile-container img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             border: 3px solid #d42c2c;
+            object-fit: cover;
         }
+
         .container {
             width: 80%;
             margin: auto;
-            overflow: hidden;
         }
+
         .section {
             background: white;
             padding: 20px;
-            margin-top: 10px;
+            margin-top: 15px;
             border-radius: 5px;
-            box-shadow: 0px 0px 10px 0px #aaa;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         h2 {
             color: #d42c2c;
+            margin-bottom: 10px;
         }
+
         ul {
-            list-style-type: none;
-            padding: 0;
+            list-style: none;
+            padding-left: 0;
         }
+
         ul li {
             padding: 5px 0;
         }
-        .resume, .github {
+
+        .github {
             text-align: center;
-            margin-top: 20px;
+            margin: 30px 0;
         }
-        .resume a, .github a {
+
+        .github a {
             display: inline-block;
             padding: 10px 20px;
-            background: #444;
-            color: white;
+            background-color: #444;
+            color: #fff;
             text-decoration: none;
             border-radius: 5px;
+            transition: background 0.3s;
         }
-        .resume a:hover, .github a:hover {
-            background: #222;
+
+        .github a:hover {
+            background-color: #222;
         }
     </style>
 </head>
 <body>
 
     <div class="header">
-       M.PRITHIMA SHRI<br>
+        M. PRITHIMA SHRI
         <small>BCA Graduate</small>
     </div>
 
     <div class="profile-container">
-        <img src="prithima.jpg" alt="M.PRITHIMA SHRI">
+        <img src="prithima.jpg" alt="M. PRITHIMA SHRI" />
     </div>
 
     <div class="container">
+
         <div class="section">
             <h2>About Me</h2>
             <p>Motivated BCA graduate with strong programming and problem-solving skills, seeking an entry-level role to apply my knowledge in software development and IT solutions.</p>
@@ -92,10 +113,8 @@
             <h2>Skills</h2>
             <ul>
                 <li>Python</li>
-                
                 <li>C++</li>
                 <li>Data Structures</li>
-                
                 <li>HTML</li>
             </ul>
         </div>
@@ -103,18 +122,15 @@
         <div class="section">
             <h2>Projects</h2>
             <ul>
-               
                 <li>Digital Portfolio</li>
-                <li>Music app</li>
-               
+                <li>Music App</li>
             </ul>
         </div>
-
-      
 
         <div class="github">
             <a href="https://github.com/13384bca2024-hub" target="_blank">Visit My GitHub</a>
         </div>
+
     </div>
 
 </body>
